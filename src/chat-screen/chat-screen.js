@@ -9,7 +9,7 @@ export default function ChatScreen() {
   const [allChats, setAllChats] = useState([]); //Stores all chats of the user along their chat number
   const [chats, setChats] = useState([]); //it stores chats in chat panel : ["Chat 1", "Chat 2",....]
   const navigate = useNavigate();
-  const socket = io("http://localhost:8080");
+  const socket = io("http://localhost:3000");
 
   const handleNewChatClick = () => {
     //adds a new chat body to allChats when user click on New Chat button

@@ -38,7 +38,7 @@ export default function ChatBody({ chatNumber, handleNewChats }) {
     },
   ];
 
-  const socket = io("http://localhost:8080");
+  const socket = io("http://localhost:3000");
   const handleSendingMessage = (message) => {
     if (message) {
       socket.emit("send-message", { message: message }, chatNumber);
