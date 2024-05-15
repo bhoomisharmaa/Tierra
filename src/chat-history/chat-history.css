@@ -1,0 +1,34 @@
+.chat-history {
+  margin: 5%;
+  padding: 8%;
+  border-radius: 10px;
+  /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color]; */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.new-chat-btn {
+  width: 100%;
+  height: auto;
+  padding: 5%;
+  border: 2px solid rgb(186, 185, 185);
+  border-radius: 10px;
+  color: gray;
+}
+
+.new-chat-btn:hover {
+  scale: 1.01;
+}
+
+.chat-links {
+  font-size: medium;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.chat-links:hover {
+  background-color: rgba(221, 221, 221, 0.265);
+}
